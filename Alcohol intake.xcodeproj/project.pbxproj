@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D104DB1E21E92900029B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D104DA1E21E92900029B01 /* AppDelegate.swift */; };
+		11D104DD1E21E92900029B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D104DC1E21E92900029B01 /* ViewController.swift */; };
+		11D104E01E21E92900029B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D104DE1E21E92900029B01 /* Main.storyboard */; };
+		11D104E31E21E92900029B01 /* Alcohol_intake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11D104E11E21E92900029B01 /* Alcohol_intake.xcdatamodeld */; };
+		11D104E51E21E92900029B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D104E41E21E92900029B01 /* Assets.xcassets */; };
+		11D104E81E21E92900029B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D104E61E21E92900029B01 /* LaunchScreen.storyboard */; };
+		11D104F31E21E92900029B01 /* Alcohol_intakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D104F21E21E92900029B01 /* Alcohol_intakeTests.swift */; };
+		11D104FE1E21E92900029B01 /* Alcohol_intakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D104FD1E21E92900029B01 /* Alcohol_intakeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11D104EF1E21E92900029B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D104CF1E21E92900029B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D104D61E21E92900029B01;
+			remoteInfo = "Alcohol intake";
+		};
+		11D104FA1E21E92900029B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D104CF1E21E92900029B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D104D61E21E92900029B01;
+			remoteInfo = "Alcohol intake";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D104D71E21E92900029B01 /* Alcohol intake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcohol intake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D104DA1E21E92900029B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11D104DC1E21E92900029B01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11D104DF1E21E92900029B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11D104E21E21E92900029B01 /* Alcohol_intake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alcohol_intake.xcdatamodel; sourceTree = "<group>"; };
+		11D104E41E21E92900029B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11D104E71E21E92900029B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11D104E91E21E92900029B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D104EE1E21E92900029B01 /* Alcohol intakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcohol intakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D104F21E21E92900029B01 /* Alcohol_intakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_intakeTests.swift; sourceTree = "<group>"; };
+		11D104F41E21E92900029B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D104F91E21E92900029B01 /* Alcohol intakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcohol intakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D104FD1E21E92900029B01 /* Alcohol_intakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_intakeUITests.swift; sourceTree = "<group>"; };
+		11D104FF1E21E92900029B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D104D41E21E92900029B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D104EB1E21E92900029B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D104F61E21E92900029B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D104CE1E21E92900029B01 = {
+			isa = PBXGroup;
+			children = (
+				11D104D91E21E92900029B01 /* Alcohol intake */,
+				11D104F11E21E92900029B01 /* Alcohol intakeTests */,
+				11D104FC1E21E92900029B01 /* Alcohol intakeUITests */,
+				11D104D81E21E92900029B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11D104D81E21E92900029B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D104D71E21E92900029B01 /* Alcohol intake.app */,
+				11D104EE1E21E92900029B01 /* Alcohol intakeTests.xctest */,
+				11D104F91E21E92900029B01 /* Alcohol intakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D104D91E21E92900029B01 /* Alcohol intake */ = {
+			isa = PBXGroup;
+			children = (
+				11D104DA1E21E92900029B01 /* AppDelegate.swift */,
+				11D104DC1E21E92900029B01 /* ViewController.swift */,
+				11D104DE1E21E92900029B01 /* Main.storyboard */,
+				11D104E41E21E92900029B01 /* Assets.xcassets */,
+				11D104E61E21E92900029B01 /* LaunchScreen.storyboard */,
+				11D104E91E21E92900029B01 /* Info.plist */,
+				11D104E11E21E92900029B01 /* Alcohol_intake.xcdatamodeld */,
+			);
+			path = "Alcohol intake";
+			sourceTree = "<group>";
+		};
+		11D104F11E21E92900029B01 /* Alcohol intakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				11D104F21E21E92900029B01 /* Alcohol_intakeTests.swift */,
+				11D104F41E21E92900029B01 /* Info.plist */,
+			);
+			path = "Alcohol intakeTests";
+			sourceTree = "<group>";
+		};
+		11D104FC1E21E92900029B01 /* Alcohol intakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11D104FD1E21E92900029B01 /* Alcohol_intakeUITests.swift */,
+				11D104FF1E21E92900029B01 /* Info.plist */,
+			);
+			path = "Alcohol intakeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D104D61E21E92900029B01 /* Alcohol intake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D105021E21E92900029B01 /* Build configuration list for PBXNativeTarget "Alcohol intake" */;
+			buildPhases = (
+				11D104D31E21E92900029B01 /* Sources */,
+				11D104D41E21E92900029B01 /* Frameworks */,
+				11D104D51E21E92900029B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alcohol intake";
+			productName = "Alcohol intake";
+			productReference = 11D104D71E21E92900029B01 /* Alcohol intake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11D104ED1E21E92900029B01 /* Alcohol intakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D105051E21E92900029B01 /* Build configuration list for PBXNativeTarget "Alcohol intakeTests" */;
+			buildPhases = (
+				11D104EA1E21E92900029B01 /* Sources */,
+				11D104EB1E21E92900029B01 /* Frameworks */,
+				11D104EC1E21E92900029B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D104F01E21E92900029B01 /* PBXTargetDependency */,
+			);
+			name = "Alcohol intakeTests";
+			productName = "Alcohol intakeTests";
+			productReference = 11D104EE1E21E92900029B01 /* Alcohol intakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11D104F81E21E92900029B01 /* Alcohol intakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D105081E21E92900029B01 /* Build configuration list for PBXNativeTarget "Alcohol intakeUITests" */;
+			buildPhases = (
+				11D104F51E21E92900029B01 /* Sources */,
+				11D104F61E21E92900029B01 /* Frameworks */,
+				11D104F71E21E92900029B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D104FB1E21E92900029B01 /* PBXTargetDependency */,
+			);
+			name = "Alcohol intakeUITests";
+			productName = "Alcohol intakeUITests";
+			productReference = 11D104F91E21E92900029B01 /* Alcohol intakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D104CF1E21E92900029B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Keita;
+				TargetAttributes = {
+					11D104D61E21E92900029B01 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RX78EZR565;
+						ProvisioningStyle = Automatic;
+					};
+					11D104ED1E21E92900029B01 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RX78EZR565;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11D104D61E21E92900029B01;
+					};
+					11D104F81E21E92900029B01 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RX78EZR565;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11D104D61E21E92900029B01;
+					};
+				};
+			};
+			buildConfigurationList = 11D104D21E21E92900029B01 /* Build configuration list for PBXProject "Alcohol intake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11D104CE1E21E92900029B01;
+			productRefGroup = 11D104D81E21E92900029B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D104D61E21E92900029B01 /* Alcohol intake */,
+				11D104ED1E21E92900029B01 /* Alcohol intakeTests */,
+				11D104F81E21E92900029B01 /* Alcohol intakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D104D51E21E92900029B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D104E81E21E92900029B01 /* LaunchScreen.storyboard in Resources */,
+				11D104E51E21E92900029B01 /* Assets.xcassets in Resources */,
+				11D104E01E21E92900029B01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D104EC1E21E92900029B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D104F71E21E92900029B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D104D31E21E92900029B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D104DD1E21E92900029B01 /* ViewController.swift in Sources */,
+				11D104E31E21E92900029B01 /* Alcohol_intake.xcdatamodeld in Sources */,
+				11D104DB1E21E92900029B01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D104EA1E21E92900029B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D104F31E21E92900029B01 /* Alcohol_intakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D104F51E21E92900029B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D104FE1E21E92900029B01 /* Alcohol_intakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11D104F01E21E92900029B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D104D61E21E92900029B01 /* Alcohol intake */;
+			targetProxy = 11D104EF1E21E92900029B01 /* PBXContainerItemProxy */;
+		};
+		11D104FB1E21E92900029B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D104D61E21E92900029B01 /* Alcohol intake */;
+			targetProxy = 11D104FA1E21E92900029B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11D104DE1E21E92900029B01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D104DF1E21E92900029B01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11D104E61E21E92900029B01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D104E71E21E92900029B01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D105001E21E92900029B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11D105011E21E92900029B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D105031E21E92900029B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RX78EZR565;
+				INFOPLIST_FILE = "Alcohol intake/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.Alcohol-intake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11D105041E21E92900029B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RX78EZR565;
+				INFOPLIST_FILE = "Alcohol intake/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.Alcohol-intake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		11D105061E21E92900029B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RX78EZR565;
+				INFOPLIST_FILE = "Alcohol intakeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.Alcohol-intakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcohol intake.app/Alcohol intake";
+			};
+			name = Debug;
+		};
+		11D105071E21E92900029B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RX78EZR565;
+				INFOPLIST_FILE = "Alcohol intakeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.Alcohol-intakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcohol intake.app/Alcohol intake";
+			};
+			name = Release;
+		};
+		11D105091E21E92900029B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RX78EZR565;
+				INFOPLIST_FILE = "Alcohol intakeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.Alcohol-intakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alcohol intake";
+			};
+			name = Debug;
+		};
+		11D1050A1E21E92900029B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RX78EZR565;
+				INFOPLIST_FILE = "Alcohol intakeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.Alcohol-intakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alcohol intake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D104D21E21E92900029B01 /* Build configuration list for PBXProject "Alcohol intake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D105001E21E92900029B01 /* Debug */,
+				11D105011E21E92900029B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D105021E21E92900029B01 /* Build configuration list for PBXNativeTarget "Alcohol intake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D105031E21E92900029B01 /* Debug */,
+				11D105041E21E92900029B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11D105051E21E92900029B01 /* Build configuration list for PBXNativeTarget "Alcohol intakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D105061E21E92900029B01 /* Debug */,
+				11D105071E21E92900029B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11D105081E21E92900029B01 /* Build configuration list for PBXNativeTarget "Alcohol intakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D105091E21E92900029B01 /* Debug */,
+				11D1050A1E21E92900029B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11D104E11E21E92900029B01 /* Alcohol_intake.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11D104E21E21E92900029B01 /* Alcohol_intake.xcdatamodel */,
+			);
+			currentVersion = 11D104E21E21E92900029B01 /* Alcohol_intake.xcdatamodel */;
+			path = Alcohol_intake.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11D104CF1E21E92900029B01 /* Project object */;
+}
