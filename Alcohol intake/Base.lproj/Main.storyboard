@@ -33,26 +33,41 @@
                                 <rect key="frame" x="263" y="20" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="焼酎"/>
+                                <connections>
+                                    <action selector="drinkSyochu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pa6-aF-H6K"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5a-k4-BoU">
                                 <rect key="frame" x="164" y="20" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="日本酒"/>
+                                <connections>
+                                    <action selector="drinkNihonsyu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ErF-M0-FaL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBX-0j-MCB">
                                 <rect key="frame" x="64" y="62" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ワイン"/>
+                                <connections>
+                                    <action selector="drinkWine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0W-JH-60z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64B-vK-uVL">
                                 <rect key="frame" x="255" y="62" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="酎ハイ"/>
+                                <connections>
+                                    <action selector="drinkChuhai:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jjq-zM-2KB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mF-sX-PhD">
                                 <rect key="frame" x="149" y="62" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ウイスキー"/>
+                                <state key="normal" title="ハイボール"/>
+                                <connections>
+                                    <action selector="drinkHighball:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2VI-G1-rYC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="摂取アルコール量表示" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aq-lh-Wha">
                                 <rect key="frame" x="105" y="177" width="177" height="38"/>
