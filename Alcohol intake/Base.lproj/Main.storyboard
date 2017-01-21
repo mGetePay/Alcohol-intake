@@ -95,7 +95,7 @@
                     </view>
                     <connections>
                         <outlet property="alcoholIntake" destination="9aq-lh-Wha" id="lL1-KK-jqe"/>
-                        <outlet property="judgment" destination="q5a-YI-Fjf" id="21c-2j-D1X"/>
+                        <outlet property="judgement" destination="q5a-YI-Fjf" id="Sf6-kD-lS7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -9,10 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
 var resultValue:Double = 0
+
+    @IBOutlet weak var judgement: UILabel!
     @IBOutlet weak var alcoholIntake: UILabel!
-    
 
     
 //各ドリンクのボタン押下で各そのドリンクを一杯飲んだ時のアルコール量を計算する。またその結果を加算し、合計摂取アルコール量を計算する。
@@ -58,21 +58,44 @@ var resultValue:Double = 0
     resultValue = resultValue + chuhai
     alcoholIntake.text = String(resultValue)
     print(resultValue)
+        switch resultValue {
+            case 0 ... 27:
+                judgement.text = "爽快"
+            case 27.1...54:
+                judgement.text = "ほろ酔い"
+            case 54.1...81:
+                judgement.text = "酩酊初期"
+            case 81.1...162:
+                judgement.text = "酩酊"
+            case 162.1...270:
+                judgement.text = "泥酔"
+            default:
+            judgement.text = "昏睡"
+        }
     }
 
- 
-    
-//アルコール摂取量に応じて、酔い度合いの判定メッセージを出す
-    @IBOutlet weak var judgment: UILabel!
+    //アルコール摂取量に応じて、酔い度合いの判定メッセージを出す関数
+    func calResultValue() -> Double{
+        switch resultValue {
+        case 0 ... 27:
+            judgement.text = "爽快"
+        case 27.1...54:
+            judgement.text = "ほろ酔い"
+        case 54.1...81:
+            judgement.text = "酩酊初期"
+        case 81.1...162:
+            judgement.text = "酩酊"
+        case 162.1...270:
+            judgement.text = "泥酔"
+        default:
+            judgement.text = "昏睡"
+        }
+        return resultValue
+    }
+
 
 //    Action接続はReturnできないのか？
-// print(resultValue)
-    
-//    switch resultValue {
-//    case 0:
-//    print("0です")
-//    }
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
