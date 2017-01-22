@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11BB43121E3498F80080617F /* DentakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB43111E3498F80080617F /* DentakuViewController.swift */; };
 		11D104DB1E21E92900029B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D104DA1E21E92900029B01 /* AppDelegate.swift */; };
 		11D104DD1E21E92900029B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D104DC1E21E92900029B01 /* ViewController.swift */; };
 		11D104E01E21E92900029B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D104DE1E21E92900029B01 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11BB43111E3498F80080617F /* DentakuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DentakuViewController.swift; sourceTree = "<group>"; };
 		11D104D71E21E92900029B01 /* Alcohol intake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcohol intake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D104DA1E21E92900029B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D104DC1E21E92900029B01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				11D104DA1E21E92900029B01 /* AppDelegate.swift */,
 				11D104DC1E21E92900029B01 /* ViewController.swift */,
 				11D104DE1E21E92900029B01 /* Main.storyboard */,
+				11BB43111E3498F80080617F /* DentakuViewController.swift */,
 				11D104E41E21E92900029B01 /* Assets.xcassets */,
 				11D104E61E21E92900029B01 /* LaunchScreen.storyboard */,
 				11D104E91E21E92900029B01 /* Info.plist */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D104DD1E21E92900029B01 /* ViewController.swift in Sources */,
+				11BB43121E3498F80080617F /* DentakuViewController.swift in Sources */,
 				11D104E31E21E92900029B01 /* Alcohol_intake.xcdatamodeld in Sources */,
 				11D104DB1E21E92900029B01 /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +522,7 @@
 				11D105041E21E92900029B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11D105051E21E92900029B01 /* Build configuration list for PBXNativeTarget "Alcohol intakeTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				11D105071E21E92900029B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11D105081E21E92900029B01 /* Build configuration list for PBXNativeTarget "Alcohol intakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				11D1050A1E21E92900029B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -12,6 +12,27 @@ class ViewController: UIViewController {
 var resultValue:Double = 0
 
     @IBOutlet weak var judgement: UILabel!
+    
+//    //アルコール摂取量に応じて、酔い度合いの判定メッセージを出す関数
+//    func calResultValue() -> Double{
+//        switch resultValue {
+//        case 0 ... 27:
+//            judgement.text = "爽快"
+//        case 27.1...54:
+//            judgement.text = "ほろ酔い"
+//        case 54.1...81:
+//            judgement.text = "酩酊初期"
+//        case 81.1...162:
+//            judgement.text = "酩酊"
+//        case 162.1...270:
+//            judgement.text = "泥酔"
+//        default:
+//            judgement.text = "昏睡"
+//        }
+//        return resultValue
+//    }
+//    
+    
     @IBOutlet weak var alcoholIntake: UILabel!
 
     
@@ -21,6 +42,21 @@ var resultValue:Double = 0
         resultValue = resultValue + beer
         print(resultValue)
         alcoholIntake.text = String(resultValue)
+            switch resultValue {
+                case 0 ... 27:
+                    judgement.text = "爽快"
+                case 27.1...54:
+                    judgement.text = "ほろ酔い"
+                case 54.1...81:
+                    judgement.text = "酩酊初期"
+                case 81.1...162:
+                    judgement.text = "酩酊"
+                case 162.1...270:
+                    judgement.text = "泥酔"
+                default:
+                    judgement.text = "昏睡"
+        }
+
     }
 
     @IBAction func drinkNihonsyu(_ sender: Any) {
@@ -28,6 +64,21 @@ var resultValue:Double = 0
         resultValue = resultValue + nihonsyu
         print(resultValue)
         alcoholIntake.text = String(resultValue)
+            switch resultValue {
+                case 0 ... 27:
+                    judgement.text = "爽快"
+                case 27.1...54:
+                    judgement.text = "ほろ酔い"
+                case 54.1...81:
+                    judgement.text = "酩酊初期"
+                case 81.1...162:
+                    judgement.text = "酩酊"
+                case 162.1...270:
+                    judgement.text = "泥酔"
+                default:
+                    judgement.text = "昏睡"
+        }
+
     }
 
  
@@ -36,6 +87,21 @@ var resultValue:Double = 0
         resultValue = resultValue + syochu
         print(resultValue)
         alcoholIntake.text = String(resultValue)
+            switch resultValue {
+                case 0 ... 27:
+                    judgement.text = "爽快"
+                case 27.1...54:
+                    judgement.text = "ほろ酔い"
+                case 54.1...81:
+                    judgement.text = "酩酊初期"
+                case 81.1...162:
+                    judgement.text = "酩酊"
+                case 162.1...270:
+                    judgement.text = "泥酔"
+                default:
+                    judgement.text = "昏睡"
+        }
+
     }
     
     @IBAction func drinkWine(_ sender: Any) {
@@ -43,6 +109,21 @@ var resultValue:Double = 0
         resultValue = resultValue + wine
         print(resultValue)
         alcoholIntake.text = String(resultValue)
+            switch resultValue {
+                case 0 ... 27:
+                    judgement.text = "爽快"
+                case 27.1...54:
+                    judgement.text = "ほろ酔い"
+                case 54.1...81:
+                    judgement.text = "酩酊初期"
+            case 81.1...162:
+                    judgement.text = "酩酊"
+            case 162.1...270:
+                judgement.text = "泥酔"
+            default:
+                judgement.text = "昏睡"
+        }
+
     }
 
 
@@ -51,6 +132,21 @@ var resultValue:Double = 0
         resultValue = resultValue + highball
         print(resultValue)
         alcoholIntake.text = String(resultValue)
+            switch resultValue {
+                case 0 ... 27:
+                    judgement.text = "爽快"
+                case 27.1...54:
+                    judgement.text = "ほろ酔い"
+                case 54.1...81:
+                    judgement.text = "酩酊初期"
+                case 81.1...162:
+                    judgement.text = "酩酊"
+                case 162.1...270:
+                    judgement.text = "泥酔"
+                default:
+                    judgement.text = "昏睡"
+        }
+        
     }
     
     @IBAction func drinkChuhai(_ sender: Any){
@@ -74,27 +170,13 @@ var resultValue:Double = 0
         }
     }
 
-    //アルコール摂取量に応じて、酔い度合いの判定メッセージを出す関数
-    func calResultValue() -> Double{
-        switch resultValue {
-        case 0 ... 27:
-            judgement.text = "爽快"
-        case 27.1...54:
-            judgement.text = "ほろ酔い"
-        case 54.1...81:
-            judgement.text = "酩酊初期"
-        case 81.1...162:
-            judgement.text = "酩酊"
-        case 162.1...270:
-            judgement.text = "泥酔"
-        default:
-            judgement.text = "昏睡"
-        }
-        return resultValue
-    }
+//ここから電卓機能追加。アルコール計算結果に数字をかけたり割ったりできるようにする。日平均や週・月間の値の予測に利用するなど。
+//×、÷、数字のボタンを押すと、それぞれの値を取得する。
 
+    
+    
+    
 
-//    Action接続はReturnできないのか？
 
     
     override func viewDidLoad() {
